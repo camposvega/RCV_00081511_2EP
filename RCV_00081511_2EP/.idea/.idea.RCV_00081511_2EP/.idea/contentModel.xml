@@ -8,9 +8,25 @@
       <e p="App.config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Business.cs" t="Include" />
+      <e p="CrearAdmin.cs" t="Include" />
+      <e p="CrearAdmin.Designer.cs" t="Include" />
+      <e p="CrearAdmin.resx" t="Include" />
+      <e p="DetalleUsuarios.cs" t="Include" />
+      <e p="DetalleUsuarios.Designer.cs" t="Include" />
+      <e p="DetalleUsuarios.resx" t="Include" />
       <e p="Form1.cs" t="Include" />
       <e p="Form1.Designer.cs" t="Include" />
+      <e p="Form1.resx" t="Include" />
+      <e p="Login.cs" t="Include" />
+      <e p="Login.Designer.cs" t="Include" />
+      <e p="Login.resx" t="Include" />
+      <e p="NegociosAdmin.cs" t="Include" />
+      <e p="NegociosAdmin.Designer.cs" t="Include" />
+      <e p="NegociosAdmin.resx" t="Include" />
       <e p="obj" t="ExcludeRecursive" />
+      <e p="ordenUser.cs" t="Include" />
+      <e p="ordenUser.Designer.cs" t="Include" />
+      <e p="ordenUser.resx" t="Include" />
       <e p="Order.cs" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Product.cs" t="Include" />
@@ -25,6 +41,9 @@
       <e p="RCV_00081511_2EP.csproj" t="IncludeRecursive" />
       <e p="RCV_00081511_2EP.sln" t="IncludeFlat" />
       <e p="User.cs" t="Include" />
+      <e p="VerDireccion.cs" t="Include" />
+      <e p="VerDireccion.Designer.cs" t="Include" />
+      <e p="VerDireccion.resx" t="Include" />
     </e>
   </component>
 </project>
