@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace RCV_00081511_2EP
 {
@@ -25,6 +27,34 @@ namespace RCV_00081511_2EP
             }
         }
 
+        public void btnAdmin()
+        {
+            formMain.Button1.Enabled = true;
+            formMain.Button2.Enabled = true;
+            formMain.Button3.Enabled = true;
+            formMain.Button4.Enabled = true;
+            formMain.Button5.Enabled = true;
+        }
+        
+        public void btnUser()
+        {
+            formMain.Button1.Enabled = true;
+            //formMain.Button2.Enabled = true;
+            //formMain.Button3.Enabled = true;
+            //formMain.Button4.Enabled = true;
+            //formMain.Button5.Enabled = true;
+        }
+
+        public void cambiarStrBtn(Button btn, String str)
+        {
+            btn.Text = str;
+        }
+        
+        public void cambiarReadO(TextBox te, Boolean bo)
+        {
+            te.ReadOnly = bo;
+        }
+
         public Form1 FormMain
         {
             get => formMain;
@@ -42,5 +72,6 @@ namespace RCV_00081511_2EP
             get => loginUser;
             set => loginUser = value;
         }
+
     }
 }

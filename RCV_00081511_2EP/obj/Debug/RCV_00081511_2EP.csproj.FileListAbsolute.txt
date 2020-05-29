@@ -36,3 +36,4 @@ C:\Users\Pc-pc\Documents\Parcial\RCV_00081511_2EP\bin\Debug\System.Threading.Tas
 C:\Users\Pc-pc\Documents\Parcial\RCV_00081511_2EP\bin\Debug\System.ValueTuple.xml
 C:\Users\Pc-pc\Documents\Parcial\RCV_00081511_2EP\obj\Debug\RCV_00081511_2EP.exe.config
 C:\Users\Pc-pc\Documents\Parcial\RCV_00081511_2EP\obj\Debug\RCV_00081511_2EP.UsuarioContra.resources
+C:\Users\Pc-pc\Documents\Parcial\RCV_00081511_2EP\obj\Debug\RCV_00081511_2EP.WelcomeUser.resources

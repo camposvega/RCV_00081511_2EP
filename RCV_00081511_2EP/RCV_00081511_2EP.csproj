@@ -148,6 +148,12 @@
         <Compile Include="VerDireccion.Designer.cs">
           <DependentUpon>VerDireccion.cs</DependentUpon>
         </Compile>
+        <Compile Include="WelcomeUser.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="WelcomeUser.Designer.cs">
+          <DependentUpon>WelcomeUser.cs</DependentUpon>
+        </Compile>
         <EmbeddedResource Include="DetalleUsuarios.resx">
           <DependentUpon>DetalleUsuarios.cs</DependentUpon>
         </EmbeddedResource>
@@ -180,6 +186,9 @@
         </EmbeddedResource>
         <EmbeddedResource Include="Welcome.resx">
           <DependentUpon>Welcome.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="WelcomeUser.resx">
+          <DependentUpon>WelcomeUser.cs</DependentUpon>
         </EmbeddedResource>
         <None Include="packages.config" />
         <None Include="Properties\Settings.settings">

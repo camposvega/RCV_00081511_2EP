@@ -50,6 +50,9 @@
       <e p="Welcome.cs" t="Include" />
       <e p="Welcome.Designer.cs" t="Include" />
       <e p="Welcome.resx" t="Include" />
+      <e p="WelcomeUser.cs" t="Include" />
+      <e p="WelcomeUser.Designer.cs" t="Include" />
+      <e p="WelcomeUser.resx" t="Include" />
     </e>
   </component>
 </project>
