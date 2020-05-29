@@ -43,12 +43,17 @@ namespace RCV_00081511_2EP
 
         private void button2_Click(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            tableLayoutPanel1.Controls.Remove(current);
+            current = new NegociosAdmin();
+            Manager.Instance.llenarTabla(((NegociosAdmin)current).DataGridView1,
+                "SELECT * FROM business");
+            tableLayoutPanel1.Controls.Add(current,0,1);
+            tableLayoutPanel1.SetColumnSpan(current,5); 
         }
 
         private void button4_Click(object sender, EventArgs e)

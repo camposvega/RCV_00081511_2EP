@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1cc7fae9-67f0-4275-a134-cb4736a253a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RCV_00081511_2EP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RCV_00081511_2EP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DetalleUsuarios.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetalleUsuarios.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DetalleUsuarios.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DetalleUsuarios.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Manager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NegociosAdmin.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NegociosAdmin.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NegociosAdmin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NegociosAdmin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/RCV_00081511_2EP.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/RCV_00081511_2EP.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/RCV_00081511_2EP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/RCV_00081511_2EP.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/RCV_00081511_2EP.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/RCV_00081511_2EP.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/RCV_00081511_2EP.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/RCV_00081511_2EP.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/RCV_00081511_2EP.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/RCV_00081511_2EP.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/RCV_00081511_2EP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/RCV_00081511_2EP.pdb" afterDir="false" />
@@ -73,9 +73,10 @@
         <option value="$PROJECT_DIR$/Login.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/Manager.cs" />
-        <option value="$PROJECT_DIR$/Form1.cs" />
-        <option value="$PROJECT_DIR$/DetalleUsuarios.cs" />
         <option value="$PROJECT_DIR$/DetalleUsuarios.Designer.cs" />
+        <option value="$PROJECT_DIR$/DetalleUsuarios.cs" />
+        <option value="$PROJECT_DIR$/Form1.cs" />
+        <option value="$PROJECT_DIR$/NegociosAdmin.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +127,7 @@
       <updated>1590648259650</updated>
       <workItem from="1590648260824" duration="6976000" />
       <workItem from="1590690961306" duration="8043000" />
-      <workItem from="1590701786456" duration="20408000" />
+      <workItem from="1590701786456" duration="22812000" />
     </task>
     <servers />
   </component>
@@ -147,30 +148,30 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1322" height="81" key="GridCell.Tab.0.bottom" timestamp="1590724252660">
+    <state width="1322" height="81" key="GridCell.Tab.0.bottom" timestamp="1590726683350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="81" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590724252660" />
-    <state width="1322" height="81" key="GridCell.Tab.0.center" timestamp="1590724252660">
+    <state width="1322" height="81" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590726683350" />
+    <state width="1322" height="81" key="GridCell.Tab.0.center" timestamp="1590726683350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="81" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590724252660" />
-    <state width="1322" height="81" key="GridCell.Tab.0.left" timestamp="1590724252660">
+    <state width="1322" height="81" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590726683350" />
+    <state width="1322" height="81" key="GridCell.Tab.0.left" timestamp="1590726683350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="81" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590724252660" />
-    <state width="1322" height="81" key="GridCell.Tab.0.right" timestamp="1590724252660">
+    <state width="1322" height="81" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590726683350" />
+    <state width="1322" height="81" key="GridCell.Tab.0.right" timestamp="1590726683350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="81" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590724252660" />
+    <state width="1322" height="81" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590726683350" />
     <state x="275" y="96" key="Rider.ProjectTemplateDialog.Size" timestamp="1590648259790">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Rider.ProjectTemplateDialog.Size/0.0.1366.728@0.0.1366.728" timestamp="1590648259790" />
-    <state x="651" y="66" key="RiderGenerateDialog" timestamp="1590719689919">
+    <state x="651" y="66" key="RiderGenerateDialog" timestamp="1590726421282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="651" y="66" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1590719689919" />
+    <state x="651" y="66" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1590726421282" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1590723238545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
