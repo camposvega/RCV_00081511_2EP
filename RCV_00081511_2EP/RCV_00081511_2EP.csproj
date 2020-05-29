@@ -125,11 +125,11 @@
         <Compile Include="NegociosAdmin.Designer.cs">
           <DependentUpon>NegociosAdmin.cs</DependentUpon>
         </Compile>
-        <Compile Include="ordenUser.cs">
+        <Compile Include="OrdenUser.cs">
           <SubType>UserControl</SubType>
         </Compile>
         <Compile Include="ordenUser.Designer.cs">
-          <DependentUpon>ordenUser.cs</DependentUpon>
+          <DependentUpon>OrdenUser.cs</DependentUpon>
         </Compile>
         <Compile Include="Order.cs" />
         <Compile Include="Product.cs" />
@@ -170,7 +170,7 @@
           <DependentUpon>NegociosAdmin.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="ordenUser.resx">
-          <DependentUpon>ordenUser.cs</DependentUpon>
+          <DependentUpon>OrdenUser.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Properties\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>
