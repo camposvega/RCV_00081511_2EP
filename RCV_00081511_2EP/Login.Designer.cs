@@ -32,10 +32,10 @@ namespace RCV_00081511_2EP
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -66,6 +66,14 @@ namespace RCV_00081511_2EP
             this.tableLayoutPanel1.Size = new System.Drawing.Size(512, 512);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
+            // textBox2
+            // 
+            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox2.Location = new System.Drawing.Point(293, 333);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(182, 23);
+            this.textBox2.TabIndex = 3;
+            // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -94,14 +102,6 @@ namespace RCV_00081511_2EP
             this.textBox1.Size = new System.Drawing.Size(182, 23);
             this.textBox1.TabIndex = 2;
             // 
-            // textBox2
-            // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Location = new System.Drawing.Point(293, 333);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(182, 23);
-            this.textBox2.TabIndex = 3;
-            // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -112,6 +112,7 @@ namespace RCV_00081511_2EP
             this.button1.TabIndex = 4;
             this.button1.Text = "Iniciar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Login
             // 

@@ -32,8 +32,8 @@ namespace RCV_00081511_2EP
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -71,15 +71,6 @@ namespace RCV_00081511_2EP
             this.tableLayoutPanel1.Size = new System.Drawing.Size(512, 512);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Location = new System.Drawing.Point(23, 26);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(107, 23);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Nombre";
-            // 
             // textBox2
             // 
             this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -90,12 +81,21 @@ namespace RCV_00081511_2EP
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "Descripcion";
             // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox1.Location = new System.Drawing.Point(23, 26);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(107, 23);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "Nombre";
+            // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(377, 25);
+            this.button1.Location = new System.Drawing.Point(377, 24);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 26);
+            this.button1.Size = new System.Drawing.Size(114, 27);
             this.button1.TabIndex = 2;
             this.button1.Text = "Agregar";
             this.button1.UseVisualStyleBackColor = true;
@@ -103,9 +103,9 @@ namespace RCV_00081511_2EP
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.Location = new System.Drawing.Point(377, 101);
+            this.button2.Location = new System.Drawing.Point(377, 100);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 26);
+            this.button2.Size = new System.Drawing.Size(114, 27);
             this.button2.TabIndex = 3;
             this.button2.Text = "Eliminar";
             this.button2.UseVisualStyleBackColor = true;

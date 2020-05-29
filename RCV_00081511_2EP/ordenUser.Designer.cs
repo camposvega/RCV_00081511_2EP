@@ -32,8 +32,8 @@ namespace RCV_00081511_2EP
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -68,26 +68,26 @@ namespace RCV_00081511_2EP
             this.tableLayoutPanel1.Size = new System.Drawing.Size(512, 512);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(3, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(43, 23);
-            this.textBox1.TabIndex = 0;
-            // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(182, 3);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(43, 23);
+            this.textBox2.Size = new System.Drawing.Size(42, 23);
             this.textBox2.TabIndex = 1;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(3, 3);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(42, 23);
+            this.textBox1.TabIndex = 0;
             // 
             // textBox3
             // 
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox3.Location = new System.Drawing.Point(247, 102);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(43, 23);
+            this.textBox3.Size = new System.Drawing.Size(42, 23);
             this.textBox3.TabIndex = 2;
             this.textBox3.Text = "id";
             // 

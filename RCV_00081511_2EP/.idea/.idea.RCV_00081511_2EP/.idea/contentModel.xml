@@ -8,6 +8,7 @@
       <e p="App.config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Business.cs" t="Include" />
+      <e p="ConnectionDB.cs" t="Include" />
       <e p="CrearAdmin.cs" t="Include" />
       <e p="CrearAdmin.Designer.cs" t="Include" />
       <e p="CrearAdmin.resx" t="Include" />
@@ -20,6 +21,7 @@
       <e p="Login.cs" t="Include" />
       <e p="Login.Designer.cs" t="Include" />
       <e p="Login.resx" t="Include" />
+      <e p="Manager.cs" t="Include" />
       <e p="NegociosAdmin.cs" t="Include" />
       <e p="NegociosAdmin.Designer.cs" t="Include" />
       <e p="NegociosAdmin.resx" t="Include" />
@@ -29,6 +31,7 @@
       <e p="ordenUser.resx" t="Include" />
       <e p="Order.cs" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
       <e p="Product.cs" t="Include" />
       <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
@@ -44,6 +47,9 @@
       <e p="VerDireccion.cs" t="Include" />
       <e p="VerDireccion.Designer.cs" t="Include" />
       <e p="VerDireccion.resx" t="Include" />
+      <e p="Welcome.cs" t="Include" />
+      <e p="Welcome.Designer.cs" t="Include" />
+      <e p="Welcome.resx" t="Include" />
     </e>
   </component>
 </project>

@@ -1,16 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace RCV_00081511_2EP
 {
-    public class User
+    public class User 
     {
-        private int idUser;
+        private String idUser;
         private String name;
         private String username;
         private String pass;
         private Boolean userType;
 
-        public User(int idUser, string name, string username, string pass, bool userType)
+        public User(String idUser, string name, string username, string pass, bool userType)
         {
             this.idUser = idUser;
             this.name = name;
@@ -27,7 +28,7 @@ namespace RCV_00081511_2EP
             this.userType = userType;
         }
 
-        public int IdUser
+        public String IdUser
         {
             get => idUser;
             set => idUser = value;
