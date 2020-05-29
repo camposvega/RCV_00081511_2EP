@@ -39,10 +39,10 @@ namespace RCV_00081511_2EP
         public void btnUser()
         {
             formMain.Button1.Enabled = true;
-            //formMain.Button2.Enabled = true;
+            formMain.Button2.Enabled = true;
             //formMain.Button3.Enabled = true;
             //formMain.Button4.Enabled = true;
-            //formMain.Button5.Enabled = true;
+            formMain.Button5.Enabled = true;
         }
 
         public void cambiarStrBtn(Button btn, String str)
