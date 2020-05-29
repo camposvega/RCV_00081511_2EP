@@ -55,6 +55,19 @@ namespace RCV_00081511_2EP
             te.ReadOnly = bo;
         }
 
+        public void llenarTabla(DataGridView dg, String query)
+        {
+            try
+            {
+                var dt = ConnectionDB.executeQuery(query);
+                dg.DataSource = dt;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Ocurrio un error en conn a la BD");
+            }
+        }
+
         public Form1 FormMain
         {
             get => formMain;

@@ -25,7 +25,7 @@ namespace RCV_00081511_2EP
             }
             catch (Exception e)
             {
-                MessageBox.Show("Ocurrio un error inesperado");
+                MessageBox.Show("Ocurrio un error en la BD");
             }
             
             

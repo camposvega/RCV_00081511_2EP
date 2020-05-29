@@ -85,6 +85,10 @@ namespace RCV_00081511_2EP
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode =
                 System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tableLayoutPanel1.SetColumnSpan(this.dataGridView1, 2);
@@ -93,6 +97,8 @@ namespace RCV_00081511_2EP
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(506, 404);
             this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.CellDoubleClick +=
+                new System.Windows.Forms.DataGridViewCellEventHandler(this.cellDobleClickEvent);
             // 
             // DetalleUsuarios
             // 

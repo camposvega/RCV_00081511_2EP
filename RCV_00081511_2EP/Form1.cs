@@ -25,6 +25,8 @@ namespace RCV_00081511_2EP
             {
                 tableLayoutPanel1.Controls.Remove(current);
                 current = new DetalleUsuarios();
+                Manager.Instance.llenarTabla(((DetalleUsuarios)current).DataGridView1,
+                    "SELECT iduser, username, fullname FROM APPUSER");
                 tableLayoutPanel1.Controls.Add(current,0,1);
                 tableLayoutPanel1.SetColumnSpan(current,5);   
             }
